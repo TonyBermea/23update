@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST}  !^www\.npknstudio\.com$ [NC]
-RewriteRule ^(.*) http://www.npknstudio.com/$1 [L,R]
